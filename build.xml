@@ -10,15 +10,16 @@
 		<ThirdParty>true</ThirdParty>
 		<ExportedIncludeDirectory>include</ExportedIncludeDirectory>
 		
+		<Frozen>true</Frozen>
 		<FilterPlatform include="windows">
-			<ThirdPartyDeployFiles>
+			<FrozenDeployFiles>
 				bin\x64\D3D12Core.dll
 				bin\x64\D3D12Core.pdb
 				bin\x64\d3d12SDKLayers.dll
 				bin\x64\d3d12SDKLayers.pdb
 				bin\x64\d3dconfig.exe
 				bin\x64\d3dconfig.pdb
-			</ThirdPartyDeployFiles>
+			</FrozenDeployFiles>
 		</FilterPlatform>
 
 	</StaticLibrary>
